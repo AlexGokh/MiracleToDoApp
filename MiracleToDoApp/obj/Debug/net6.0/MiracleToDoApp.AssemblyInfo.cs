@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiracleToDoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b16fb07efa7de8af4a99a3d0500f2bc4fd3f0ebc")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiracleToDoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiracleToDoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

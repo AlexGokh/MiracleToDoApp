@@ -30,6 +30,14 @@ namespace MiracleToDoApp.Controllers
                 View(await _context.steps.Where(x => x.User == currentUser).ToListAsync()) :
                 Problem("Entity set 'ApplicationDbContext.steps'  is null.");
         }
+        public async Task<IActionResult> BuildStepsTable()
+        {
+            string currentUserId = User.Identity.GetUserId();
+            IdentityUser? currentUser = _context.Users.FirstOrDefault(x => x.Id == currentUserId);
+            return _context.steps != null ?
+                PartialView("_StepsTable", await _context.steps.Where(x => x.User == currentUser).ToListAsync()) :
+                Problem("Entity set 'ApplicationDbContext.steps'  is null.");
+        }
 
         // GET: Steps/Details/5
         public async Task<IActionResult> Details(int? id)
