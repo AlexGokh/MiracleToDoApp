@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -22,21 +24,32 @@ namespace MiracleToDoApp.Controllers
         }
 
         // GET: Steps
+        [Authorize]
         public async Task<IActionResult> Index()
         {
-            string currentUserId = User.Identity.GetUserId();
-            IdentityUser? currentUser = _context.Users.FirstOrDefault(x => x.Id == currentUserId);
-            return _context.steps != null ? 
-                View(await _context.steps.Where(x => x.User == currentUser).ToListAsync()) :
-                Problem("Entity set 'ApplicationDbContext.steps'  is null.");
+            return View();
+        }
+
+        private async Task<List<Step>> GetMySteps()
+        {
+            string currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            IdentityUser? currentUser = await _context.Users.FirstOrDefaultAsync(x => x.Id == currentUserId);
+
+            List<Step> mySteps = await _context.steps.Where(x => x.User == currentUser).ToListAsync();
+
+            int completeCount = 0;
+            foreach(Step step in mySteps)
+            {
+                if(step.isDone) completeCount++;
+            }
+            ViewBag.Percent = Math.Round(100f * ((float)completeCount / (float)mySteps.Count()));
+
+            return mySteps;
         }
         public async Task<IActionResult> BuildStepsTable()
         {
-            string currentUserId = User.Identity.GetUserId();
-            IdentityUser? currentUser = _context.Users.FirstOrDefault(x => x.Id == currentUserId);
-            return _context.steps != null ?
-                PartialView("_StepsTable", await _context.steps.Where(x => x.User == currentUser).ToListAsync()) :
-                Problem("Entity set 'ApplicationDbContext.steps'  is null.");
+            
+            return _context.steps != null ? PartialView("_StepsTable", await GetMySteps()) : Problem("Entity set 'ApplicationDbContext.steps'  is null.");
         }
 
         // GET: Steps/Details/5
@@ -82,6 +95,22 @@ namespace MiracleToDoApp.Controllers
             return View(step);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AJAXCreate([Bind("Id,Description")] Step step)
+        {
+            if (ModelState.IsValid)
+            {
+                string currentUserId = User.Identity.GetUserId();
+                IdentityUser? currentUser = _context.Users.FirstOrDefault(x => x.Id == currentUserId);
+                _context.Add(step);
+                step.User = currentUser;
+                step.isDone = false;
+                await _context.SaveChangesAsync();
+            }
+            return _context.steps != null ? PartialView("_StepsTable", await GetMySteps()) : Problem("Entity set 'ApplicationDbContext.steps'  is null.");
+        }
+
         // GET: Steps/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -94,6 +123,14 @@ namespace MiracleToDoApp.Controllers
             if (step == null)
             {
                 return NotFound();
+            }
+
+            string currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            IdentityUser? currentUser = await _context.Users.FirstOrDefaultAsync(x => x.Id == currentUserId);
+
+            if (step.User != currentUser)
+            {
+                return BadRequest();
             }
             return View(step);
         }
@@ -131,6 +168,29 @@ namespace MiracleToDoApp.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(step);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AJAXEdit(int? id, bool value)
+        {
+            if (id == null || _context.steps == null)
+            {
+                return NotFound();
+            }
+
+            var step = await _context.steps.FindAsync(id);
+            if (step == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                step.isDone = value;
+                _context.Update(step);
+                await _context.SaveChangesAsync();
+
+            }
+            return _context.steps != null ? PartialView("_StepsTable", await GetMySteps()) : Problem("Entity set 'ApplicationDbContext.steps'  is null.");
         }
 
         // GET: Steps/Delete/5

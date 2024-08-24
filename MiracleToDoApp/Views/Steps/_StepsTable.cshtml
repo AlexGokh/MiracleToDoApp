@@ -1,26 +1,28 @@
 ﻿@model IEnumerable<MiracleToDoApp.Models.Step>
 
+<div id="progressBarSteps">
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width:@(ViewBag.Percent)%"></div>
+    </div>
+</div>
+
 <table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.isDone)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Description)
+                    @if (!item.isDone)
+                    {
+                        @Html.DisplayFor(modelItem => item.Description)
+                    }
+                    else
+                    {
+                        <div class="CompletedStep">@Html.DisplayFor(modelItem => item.Description)</div>
+                    }
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.isDone)
+                    @Html.CheckBoxFor(modelItem => item.isDone, new { id = item.Id, @class = "ActiveCheck" })
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
@@ -31,3 +33,5 @@
         }
     </tbody>
 </table>
+
+<script src="~/Custom_Scripts/AddCheckBoxListener.js"></script>

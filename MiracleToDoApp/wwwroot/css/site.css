@@ -16,3 +16,7 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.CompletedStep {
+    text-decoration: line-through;
+}

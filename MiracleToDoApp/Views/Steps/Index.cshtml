@@ -1,12 +1,44 @@
-﻿@model IEnumerable<MiracleToDoApp.Models.Step>
-
+﻿@model MiracleToDoApp.Models.Step
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h2>My ToDo List</h2>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<div id="tableDiv"></div>
+
+<div id="stepsCreateForm">
+    @using (Html.BeginForm("AJAXCreate", "Steps", FormMethod.Post, new {id = "createStepForm"}))
+    {
+        <div class="form-group">
+            <input asp-for="Description" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+    }
+
+        </div>
+
+@section Scripts {
+    <script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Custom_Scripts/TableGenerator.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#createStepForm').on('submit', function (event) {
+                event.preventDefault();
+
+                $.ajax({
+                    url: $(this).attr('action'),
+                    type: 'POST',
+                    data: $(this).serialize(),
+                    success: function (result) {
+                        $('#tableDiv').html(result);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('AJAX Error: ' + error);
+                    }
+                });
+            });
+        });
+    </script>
+}
 

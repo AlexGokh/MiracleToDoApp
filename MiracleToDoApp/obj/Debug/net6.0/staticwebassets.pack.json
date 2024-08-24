@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\MiracleToDoApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\Custom_Scripts\\AddCheckBoxListener.js",
+      "PackagePath": "staticwebassets\\Custom_Scripts\\AddCheckBoxListener.js"
+    },
+    {
+      "Id": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\Custom_Scripts\\TableGenerator.js",
+      "PackagePath": "staticwebassets\\Custom_Scripts\\TableGenerator.js"
+    },
+    {
       "Id": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -195,6 +203,14 @@
     {
       "Id": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js"
     },
     {
       "Id": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

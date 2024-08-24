@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\controllers\\stepscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\controllers\\stepscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\miracletodoapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\miracletodoapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\models\\step.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\models\\step.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\controllers\\stepscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\controllers\\stepscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\views\\steps\\_stepstable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,30 +19,24 @@
       "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\views\\steps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_MiracleToDoApp_42ca7e4c_a787_48e9_a4e6_3f8db8c35e0c/True/SqlTable/dbo.steps.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_MiracleToDoApp_42ca7e4c_a787_48e9_a4e6_3f8db8c35e0c/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\wwwroot\\custom_scripts\\addcheckboxlistener.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\wwwroot\\custom_scripts\\addcheckboxlistener.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\data\\migrations\\20240819005343_todo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\data\\migrations\\20240819005343_todo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\wwwroot\\custom_scripts\\tablegenerator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\wwwroot\\custom_scripts\\tablegenerator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|c:\\users\\pkjqf\\source\\repos\\miracletodoapp\\miracletodoapp\\views\\steps\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95653537-6D92-42E1-B733-FB44226F02CD}|MiracleToDoApp\\MiracleToDoApp.csproj|solutionrelative:miracletodoapp\\views\\steps\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,20 +46,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Views\\Steps\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiracleToDoApp\\Views\\Steps\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Views\\Steps\\Index.cshtml",
-              "RelativeToolTip": "MiracleToDoApp\\Views\\Steps\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T23:40:54.234Z",
+              "DocumentIndex": 0,
+              "Title": "MiracleToDoApp",
+              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\MiracleToDoApp.csproj",
+              "RelativeDocumentMoniker": "MiracleToDoApp\\MiracleToDoApp.csproj",
+              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\MiracleToDoApp.csproj",
+              "RelativeToolTip": "MiracleToDoApp\\MiracleToDoApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-24T15:14:29.97Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MiracleToDoApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MiracleToDoApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-24T02:11:19.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddCheckBoxListener.js",
+              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\Custom_Scripts\\AddCheckBoxListener.js",
+              "RelativeDocumentMoniker": "MiracleToDoApp\\wwwroot\\Custom_Scripts\\AddCheckBoxListener.js",
+              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\Custom_Scripts\\AddCheckBoxListener.js",
+              "RelativeToolTip": "MiracleToDoApp\\wwwroot\\Custom_Scripts\\AddCheckBoxListener.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-24T01:30:47.633Z"
             },
             {
               "$type": "Document",
@@ -75,121 +92,72 @@
               "RelativeDocumentMoniker": "MiracleToDoApp\\Views\\Steps\\_StepsTable.cshtml",
               "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Views\\Steps\\_StepsTable.cshtml",
               "RelativeToolTip": "MiracleToDoApp\\Views\\Steps\\_StepsTable.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T23:46:18.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MiracleToDoApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MiracleToDoApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T23:30:32.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "dbo.AspNetUsers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_MiracleToDoApp_42ca7e4c_a787_48e9_a4e6_3f8db8c35e0c/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "dbo.AspNetUsers [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-21T23:22:07.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Step.cs",
-              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Models\\Step.cs",
-              "RelativeDocumentMoniker": "MiracleToDoApp\\Models\\Step.cs",
-              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Models\\Step.cs",
-              "RelativeToolTip": "MiracleToDoApp\\Models\\Step.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T22:23:58.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StepsController.cs",
-              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Controllers\\StepsController.cs",
-              "RelativeDocumentMoniker": "MiracleToDoApp\\Controllers\\StepsController.cs",
-              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Controllers\\StepsController.cs",
-              "RelativeToolTip": "MiracleToDoApp\\Controllers\\StepsController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCUAAAByAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T01:07:57.951Z",
+              "WhenOpened": "2024-08-23T23:37:38.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "dbo.steps [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_MiracleToDoApp_42ca7e4c_a787_48e9_a4e6_3f8db8c35e0c/True/SqlTable/dbo.steps.sql",
-              "ToolTip": "dbo.steps [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-21T23:22:12.278Z",
-              "EditorCaption": ""
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MiracleToDoApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MiracleToDoApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T00:55:07.349Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StepsController.cs",
+              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Controllers\\StepsController.cs",
+              "RelativeDocumentMoniker": "MiracleToDoApp\\Controllers\\StepsController.cs",
+              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Controllers\\StepsController.cs",
+              "RelativeToolTip": "MiracleToDoApp\\Controllers\\StepsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T03:25:21.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "20240819005343_Todo1.cs",
-              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Data\\Migrations\\20240819005343_Todo1.cs",
-              "RelativeDocumentMoniker": "MiracleToDoApp\\Data\\Migrations\\20240819005343_Todo1.cs",
-              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Data\\Migrations\\20240819005343_Todo1.cs",
-              "RelativeToolTip": "MiracleToDoApp\\Data\\Migrations\\20240819005343_Todo1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T00:53:43.258Z"
+              "Title": "TableGenerator.js",
+              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\Custom_Scripts\\TableGenerator.js",
+              "RelativeDocumentMoniker": "MiracleToDoApp\\wwwroot\\Custom_Scripts\\TableGenerator.js",
+              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\wwwroot\\Custom_Scripts\\TableGenerator.js",
+              "RelativeToolTip": "MiracleToDoApp\\wwwroot\\Custom_Scripts\\TableGenerator.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-22T03:19:35.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Views\\Steps\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiracleToDoApp\\Views\\Steps\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Views\\Steps\\Index.cshtml",
+              "RelativeToolTip": "MiracleToDoApp\\Views\\Steps\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T02:54:45.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "MiracleToDoApp\\Data\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "MiracleToDoApp\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T00:36:40.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Program.cs",
-              "RelativeDocumentMoniker": "MiracleToDoApp\\Program.cs",
-              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Program.cs",
-              "RelativeToolTip": "MiracleToDoApp\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T00:17:04.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "MiracleToDoApp\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "MiracleToDoApp\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T00:15:13.15Z"
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Views\\Steps\\Create.cshtml",
+              "RelativeDocumentMoniker": "MiracleToDoApp\\Views\\Steps\\Create.cshtml",
+              "ToolTip": "C:\\Users\\pkjqf\\source\\repos\\MiracleToDoApp\\MiracleToDoApp\\Views\\Steps\\Create.cshtml",
+              "RelativeToolTip": "MiracleToDoApp\\Views\\Steps\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T02:48:56.008Z"
             }
           ]
         }
